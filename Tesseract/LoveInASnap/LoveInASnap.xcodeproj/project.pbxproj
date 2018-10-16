@@ -38,6 +38,8 @@
 		0463BB731F5FB6D400B9946E /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0463BB751F5FBC5500B9946E /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5EA181F5E9ECE00B61340 /* Envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envelope.png; sourceTree = "<group>"; };
+		545765D2D9724DADEA47CD60 /* Pods-LoveInASnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveInASnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveInASnap/Pods-LoveInASnap.debug.xcconfig"; sourceTree = "<group>"; };
+		6D27081DBDA7147B08745655 /* Pods-LoveInASnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveInASnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveInASnap/Pods-LoveInASnap.release.xcconfig"; sourceTree = "<group>"; };
 		D3624C9A37248BD19DEEA7C0 /* Pods_LoveInASnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveInASnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				041EDBCB1A625CEC00ECDA48 /* LoveInASnap */,
 				041EDBCA1A625CEC00ECDA48 /* Products */,
 				D9DCA61C6DEABFD208B5C296 /* Frameworks */,
+				AD09BDDED2C8232117630A3F /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -98,6 +101,15 @@
 				041EDBCD1A625CEC00ECDA48 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD09BDDED2C8232117630A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				545765D2D9724DADEA47CD60 /* Pods-LoveInASnap.debug.xcconfig */,
+				6D27081DBDA7147B08745655 /* Pods-LoveInASnap.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D9DCA61C6DEABFD208B5C296 /* Frameworks */ = {
@@ -359,6 +371,7 @@
 		};
 		041EDBE91A625CED00ECDA48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545765D2D9724DADEA47CD60 /* Pods-LoveInASnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46W25C8KDG;
@@ -384,6 +397,7 @@
 		};
 		041EDBEA1A625CED00ECDA48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D27081DBDA7147B08745655 /* Pods-LoveInASnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46W25C8KDG;
